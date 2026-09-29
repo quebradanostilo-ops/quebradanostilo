@@ -1,3 +1,4 @@
+
 "use client";
 
 import { FormEvent, useState } from "react";
@@ -35,8 +36,8 @@ export default function AdminLogin() {
     <div
       style={{
         minHeight: "100vh",
-        background: "#050505",
-        color: "#fff",
+        background: "#f5f7fb",
+        color: "#101b35",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -47,16 +48,17 @@ export default function AdminLogin() {
         style={{
           width: "100%",
           maxWidth: "420px",
-          background: "#0d0d0d",
-          border: "1px solid #252525",
+          background: "#ffffff",
+          border: "1px solid #e2e8f0",
+          borderRadius: "18px",
           padding: "32px",
-          boxShadow: "0 0 40px rgba(0, 255, 120, 0.08)",
+          boxShadow: "0 12px 40px rgba(16, 27, 53, 0.08)",
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "30px" }}>
           <div
             style={{
-              color: "#00ff78",
+              color: "#2563eb",
               fontSize: "14px",
               fontWeight: 900,
               letterSpacing: "3px",
@@ -72,6 +74,7 @@ export default function AdminLogin() {
               fontSize: "28px",
               fontWeight: 900,
               textTransform: "uppercase",
+              color: "#101b35",
             }}
           >
             Painel Admin
@@ -80,7 +83,7 @@ export default function AdminLogin() {
           <p
             style={{
               marginTop: "8px",
-              color: "#888",
+              color: "#64748b",
               fontSize: "14px",
             }}
           >
@@ -97,6 +100,7 @@ export default function AdminLogin() {
                 fontSize: "13px",
                 fontWeight: 800,
                 textTransform: "uppercase",
+                color: "#334155",
               }}
             >
               E-mail
@@ -111,9 +115,10 @@ export default function AdminLogin() {
               style={{
                 width: "100%",
                 boxSizing: "border-box",
-                background: "#050505",
-                color: "#fff",
-                border: "1px solid #333",
+                background: "#ffffff",
+                color: "#101b35",
+                border: "1px solid #cbd5e1",
+                borderRadius: "11px",
                 padding: "14px",
                 fontSize: "15px",
                 outline: "none",
@@ -129,6 +134,7 @@ export default function AdminLogin() {
                 fontSize: "13px",
                 fontWeight: 800,
                 textTransform: "uppercase",
+                color: "#334155",
               }}
             >
               Senha
@@ -143,9 +149,10 @@ export default function AdminLogin() {
               style={{
                 width: "100%",
                 boxSizing: "border-box",
-                background: "#050505",
-                color: "#fff",
-                border: "1px solid #333",
+                background: "#ffffff",
+                color: "#101b35",
+                border: "1px solid #cbd5e1",
+                borderRadius: "11px",
                 padding: "14px",
                 fontSize: "15px",
                 outline: "none",
@@ -158,9 +165,10 @@ export default function AdminLogin() {
               style={{
                 marginBottom: "18px",
                 padding: "12px",
-                background: "#250909",
-                border: "1px solid #6b1717",
-                color: "#ff6b6b",
+                background: "#fef2f2",
+                border: "1px solid #fecaca",
+                borderRadius: "10px",
+                color: "#b91c1c",
                 fontSize: "13px",
               }}
             >
@@ -174,8 +182,9 @@ export default function AdminLogin() {
             style={{
               width: "100%",
               border: "none",
-              background: loading ? "#555" : "#00ff78",
-              color: "#000",
+              borderRadius: "11px",
+              background: loading ? "#93b4f8" : "#2563eb",
+              color: "#ffffff",
               padding: "15px",
               fontSize: "15px",
               fontWeight: 900,
